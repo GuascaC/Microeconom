@@ -17,13 +17,13 @@ border-radius: 5px;
 color: black;
 }
 h1,h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     border: 5px dotted darkblue;
     border-radius: 5px;
 }
 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: medium;
 }
 input{
@@ -38,4 +38,5 @@ img{
     margin:10px auto;
     display:block;
     width: 30%;
+    height: 30%;
 }
