@@ -47,7 +47,9 @@ function precioo(){
     let po1 = Number(document.getElementById('po1').value);
     let qo2 = Number(document.getElementById('qo2').value);
     let po2 = Number(document.getElementById('po2').value);
-    let precioof = ((qo1-qo2)/(qo1+qo2))/((po1-po2)/(qo1+qo2));
+    let precioof1 = ((qo2-qo1)/(qo2+qo1));
+    let precioof2 = ((po2-po1)/(qo2+qo1));
+    let precioof = (precioof1 / precioof2);
 
     document.getElementById('precioof').value = precioof
     let mensaje;
@@ -71,4 +73,6 @@ function precioo(){
     }
     document.getElementById('elasticidad2').value = mensaje
     console.log(elasticidad2);
+    console.log(precioof1);
+    console.log(precioof2);
 }
